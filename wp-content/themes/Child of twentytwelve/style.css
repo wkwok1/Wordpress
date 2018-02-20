@@ -1,0 +1,32 @@
+/*
+ Theme Name:   Twenty Twelve Child
+ Description:  My first child theme, based on Twenty Twelve
+ Author:       Wincen
+ Template:     twentytwelve
+ Version:      1.0.0
+ Text Domain:  twentytwelve
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+@import url('../twentytwelve/style.css');
+
+
+
+#page {
+	background:white;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.site-header-home{
+
+}
+
+.site-header-about{
+
+}
+
+.site-header{
+background-color: #21759b36;
+}
