@@ -12,15 +12,6 @@
  * @since Twenty Twelve 1.0
  */
 
-if (is_front_page()):
-	get_header('home');
-elseif(is_page('about')):
-	get_header('about');
-else:
-	get_header(); 
-endif;?>
-
-
 get_header(); ?>
 
 	<div id="primary" class="site-content">
