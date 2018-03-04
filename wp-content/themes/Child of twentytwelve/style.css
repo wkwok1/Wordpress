@@ -9,6 +9,7 @@
 
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 @import url('../twentytwelve/style.css');
 
@@ -32,16 +33,16 @@
 }
 
 
-#site_title, #site_description {
-	text-align: center;
-}
 
 #site_title {
 	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
 }
 
 #site_description {
 	font-size:12px;
+	text-align:center;
 }
 
 
