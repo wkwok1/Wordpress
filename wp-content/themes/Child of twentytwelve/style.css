@@ -8,7 +8,7 @@
 */
 
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 @import url('../twentytwelve/style.css');
 
@@ -16,7 +16,7 @@
 
 #page {
 	background:white;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	background-color: #21759b2b;
 
 	margin-top: 0px;
@@ -24,8 +24,8 @@
 	margin-right: 0px;
 	margin-left: 0px;
 
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 80px;
+	padding-right: 80px;
 
 	max-width: none;
 
@@ -37,15 +37,25 @@
 }
 
 #site_title {
-	font-size: 50px;
+	font-size: 40px;
 }
 
 #site_description {
-	font-size:20px;
+	font-size:12px;
 }
 
+
+.main-navigation {
+	margin-top: 15px;
+}
 
 .main-navigation ul.nav-menu {
-text-align:center;
+	text-align:center;
+	border-bottom: 1px solid #9f9f9f;
+	border-top: 1px solid #9f9f9f;
+
 }
 
+.main-navigation li a {
+	font-size: 15px;
+}
