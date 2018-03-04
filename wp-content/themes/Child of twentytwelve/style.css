@@ -24,17 +24,14 @@
 	margin-right: 0px;
 	margin-left: 0px;
 
+	padding-left: 100px;
+	padding-right: 100px;
+
 	max-width: none;
-}
-
-.site-header-home{
 
 }
 
-.site-header-about{
 
-}
-
-.site-header{
-
+ {
+	text-align: center;
 }
