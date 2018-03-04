@@ -60,3 +60,14 @@
 .main-navigation li a {
 	font-size: 15px;
 }
+
+#entry_content_home {
+	font-size: 20px;
+	margin: 0px;
+}
+
+.site-content {
+	width:auto;
+	text-align: center;
+	float: none;
+}
