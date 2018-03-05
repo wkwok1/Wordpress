@@ -71,7 +71,14 @@
 	text-align: center;
 	float: none;
 }
-
+/*
 img {
 	border-radius: 50%;
 }
+
+#about-page-text > p{
+	font-size: 30px;
+}
+ need to ask Christine why this isn't working.
+
+*/

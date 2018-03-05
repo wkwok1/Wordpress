@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Page Without Title
+ * 
  *
  * This is the child version template for displaying all pages
  *
