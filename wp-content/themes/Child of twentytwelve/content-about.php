@@ -22,7 +22,7 @@
 			<?php the_excerpt(); ?>
 		</div><!-- .entry-summary -->
 		<?php else : ?>
-		<div id="about-page-text" class="entry-content">
+		<div id="about_page_text" class="entry-content">
 			<h1>this is a test line from the php file: content-about.php</h1>
 			<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentytwelve' ) ); ?>
 			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'twentytwelve' ), 'after' => '</div>' ) ); ?>

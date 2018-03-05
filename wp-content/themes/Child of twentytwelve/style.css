@@ -11,7 +11,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-@import url('../twentytwelve/style.css');
+/*@import url('../twentytwelve/style.css');*/
 
 
 
@@ -71,14 +71,18 @@
 	text-align: center;
 	float: none;
 }
-/*
+/* 
+Need to ask Christine why this isn't working.
+
+Editing image
 img {
 	border-radius: 50%;
 }
 
-#about-page-text > p{
+Editing text in the About page
+#about_page_text p {
 	font-size: 30px;
 }
- need to ask Christine why this isn't working.
 
 */
+
