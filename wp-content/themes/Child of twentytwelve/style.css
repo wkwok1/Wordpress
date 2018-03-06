@@ -72,14 +72,26 @@
 	float: none;
 }
 
-
 .entry-content img {
-	border-radius: 50%;
+	border-radius: 10px;
+	width: 200px;
+	height: 200px;
+}
+/*post title in preview page*/
+.entry-header .entry-title a{
+	font-family: 'Montserrat', sans-serif;
+	color: #444;
 }
 
+.site-content article {
+	word-wrap: normal; /*ensure the words are only broken at breakable points */
+}
+
+/*
 .entry-content {
 	height: 1000px;
 }
+*/
 /* 
 Need to ask Christine why this isn't working.
 

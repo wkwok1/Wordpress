@@ -1,6 +1,6 @@
 <?php
 /**
- * The alternative template file for Index.php
+ * The child theme file for the post page.
  *
  * This is the most generic template file in a WordPress theme
  * and one of the two required files for a theme (the other being style.css).
@@ -14,7 +14,7 @@
  * @since Twenty Twelve 1.0
  */
 
-
+get_header(); ?>
 
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
@@ -22,7 +22,7 @@
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-				<?php get_template_part( 'content', get_post_format() ); ?>
+				<?php get_template_part( 'post-preview', get_post_format() ); ?>
 			<?php endwhile; ?>
 
 			<?php twentytwelve_content_nav( 'nav-below' ); ?>
@@ -62,5 +62,4 @@
 		</div><!-- #content -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
