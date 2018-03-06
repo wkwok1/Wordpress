@@ -7,11 +7,12 @@
  Text Domain:  twentytwelve
 */
 
-
+/*main font*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+/*font for title*/
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-/*@import url('../twentytwelve/style.css');*/
+@import url('../twentytwelve/style.css');
 
 
 
@@ -29,7 +30,6 @@
 	padding-right: 80px;
 
 	max-width: none;
-
 }
 
 
@@ -71,13 +71,19 @@
 	text-align: center;
 	float: none;
 }
+
+
+.entry-content img {
+	border-radius: 50%;
+}
+
+.entry-content {
+	height: 1000px;
+}
 /* 
 Need to ask Christine why this isn't working.
 
 Editing image
-img {
-	border-radius: 50%;
-}
 
 Editing text in the About page
 #about_page_text p {
