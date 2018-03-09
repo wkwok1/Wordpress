@@ -72,7 +72,7 @@
 	float: none;
 }
 
-.entry-content img {
+#post-img-preview img {
 	border-radius: 10px;
 	width: 200px;
 	height: 200px;
@@ -85,6 +85,7 @@
 
 .site-content article {
 	word-wrap: normal; /*ensure the words are only broken at breakable points */
+	max-height:700px;
 }
 
 /*
