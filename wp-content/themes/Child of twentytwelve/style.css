@@ -88,6 +88,19 @@
 	max-height:700px;
 }
 
+.post-content article{
+	padding-right:50px;
+	padding-left: 50px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	margin-bottom: 40px;
+
+	border-style:solid;
+	border-width:2px;
+	border-color:#9f9f9f;
+}
+
+
 /*
 .entry-content {
 	height: 1000px;
